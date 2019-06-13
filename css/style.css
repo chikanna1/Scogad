@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+:root {
+  --text-primary-color: #b02efb;
+  --text-secondary-color: #c992ee;
+}
+
+.text-primary-color {
+  color: var(--text-primary-color);
+}
+.text-secondary-color {
+  color: var(--text-secondary-color);
+}
+#showcase {
+  background: url(/images/15585426_1848454038729745_8758939829037204130_o.jpg)
+    no-repeat center center/cover;
+  height: 100vh;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#showcase .showcase-content h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 7rem;
+  line-height: 7rem;
+  color: white;
+  padding: 0;
+  margin: 0;
+  opacity: 0.7;
+}
+
+#showcase .showcase-content h2 {
+  font-family: "Roboto", sans-serif;
+  line-height: 7rem;
+  color: white;
+  padding: 0;
+  margin: 0;
+  opacity: 0.7;
+  margin-bottom: 100px;
+}
+
+#main-nav {
+  color: black;
+}
+
+.who-we-are {
+  border-right: #b02efb dotted 2px;
+}
+#no-more-suffering {
+  padding: 100px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#our-founders {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+#main-footer {
+  padding: 100px;
+  background: rgba(101, 31, 141, 0.212);
+}
