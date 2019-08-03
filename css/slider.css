@@ -1,0 +1,48 @@
+:root {
+  --text-primary-color: #b02efb;
+  --text-secondary-color: #c992ee;
+}
+
+.slider-image {
+  padding: 5px;
+  height: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#slider {
+  background: black;
+  width: 1000px;
+  height: 500px;
+  margin: 20px auto;
+  position: relative;
+  border: 10px solid white;
+  box-shadow: 0px 0px 5px 2px #ccc;
+  align-content: center;
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: var(--text-secondary-color);
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 45%;
+  opacity: 0.2;
+}
+
+.next {
+  border-radius: 10px 0px 0px 10px;
+  margin-left: 940px;
+}
+
+.prev {
+  border-radius: 0px 10px 10px 0px;
+}
+
+button:hover {
+  opacity: 1;
+}

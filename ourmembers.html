@@ -17,6 +17,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slider.css" />
     <title>Scogad</title>
   </head>
   <body>
@@ -45,10 +46,10 @@
               <a href="/index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#aboutus" class="nav-link">About Us</a>
+              <a href="/aboutus.html" class="nav-link">About Us</a>
             </li>
             <li class="nav-item">
-              <a href="/ourmembers.html" class="nav-link">Our Members</a>
+              <a href="#ourmembers" class="nav-link">Our Members</a>
             </li>
             <li class="nav-item">
               <a href="/contactus.html" class="nav-link">Contact</a>
@@ -57,84 +58,46 @@
         </div>
       </nav>
     </div>
-    
-    <section id="about-us">
+    <section id="members">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <h1 class="text-center py-3">About Our Organization</h1>
-          </div>
-        </div>
-          <div class="row justify-content-center mx-auto">
-            <div class="col-md-12 text-center">
-              <hr>
-              <p class="lead py-2">
-                SCOGAD USA is a nonprofit Tax exempt, and Charity organization that is started by the Alumni of St. Catherine’s high school to abet in any way feasible to overhaul the school financial education and morality. We repudiate to sit by and watch these students continue to suffer without limits. This is our reason to reach out for help
-              </p>
-            </div>
-            <div class="col-md-12 justify-content-center">
-              <img
-                src="/images/14448787_1802267166681766_5080859879930092698_n.jpg"
-                alt=""
-                width="200px"
-                height="200px"
-                class="aboutus-pic"
-              />
-            </div>
+          <div class="col-md-12 text-center">
+            <h1 class="py-2">Gallery</h1>
             <hr>
           </div>
+        </div>
+        <div class="row justify-content-center-align-middle">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            
+            <div id="slider">
+              <div id="slider-content">
+                  <img
+                  src="/images/Gallery/IMG_3537.JPG"
+                  alt=""
+                  class="slider-image"
+                />
+              </div>
+              <!-- Buttons for Controls Slider -->
+              <button class = "prev" onclick="prevImage()"><</button>
+              <button class = "next" onclick="nextImage()">></button>
+            </div>
+      
+          <div class="col-md-1"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id ="more-about-our-members">
+      <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <hr />
-            <h2 class="py-2 text-center">Our Objectives</h2>
-          </div>
-          <div class="row py-3">
-            <div class="col-md-4 text-center">
-              <div>
-                  <i class="fas fa-globe-americas fa-3x text-secondary-color"></i>
-              </div>
-              <div>
-                <p class="lead py-3">
-                  To create a global platform of St. Catherine’s Secondary
-                  School Nkwerre alumni through networking engagement and
-                  information sharing.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div>
-                    <i class="fas fa-school fa-3x text-secondary-color"></i>
-                </div>
-                <div>
-                  <p class="lead py-3">
-                      To Collectively plan and implement programs that shall benefit the alumni Association and St. Catherine ‘s Girls Secondary School.
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-4 text-center">
-                  <div>
-                      <i class="fab fa-slideshare fa-3x text-secondary-color"></i>
-                  </div>
-                  <div>
-                    <p class="lead py-3">
-                        To hold meetings and conferences to exchange ideas on matters of development for St. Catherine’s Girls Secondary Schools.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <hr>
-                <p class="lead text-center">
-                    Our goal is to raise funds and rehabilitate the dilapidated school and uplift the spirits these afflicted indigenous students at the school.
-                </p>
-              </div>
-            </div>
+          <div class="col-md-12 text-center">
+            <p class="lead">Some of our blessed members!</p>
           </div>
         </div>
       </div>
     </section>
+
     <footer id="main-footer">
       <div class="container">
         <div class="col-md-12 text-center">
@@ -150,7 +113,7 @@
         </div>
       </div>
     </footer>
-
+    <script src="/slider.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="

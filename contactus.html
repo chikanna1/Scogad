@@ -28,10 +28,10 @@
         id="main-nav"
         class="navbar bg-light navbar-light navbar-expand-md py-3"
       >
-      <a href="/index.html" class="navbar-brand px-5">
-        <img src="images/IMG_2040.jpeg" width="50" height="50" alt="" />
-        <h3 class="d-inline align-middle">SCOGAD</h3>
-      </a>
+        <a href="/index.html" class="navbar-brand px-5">
+          <img src="images/IMG_2040.jpeg" width="50" height="50" alt="" />
+          <h3 class="d-inline align-middle">SCOGAD</h3>
+        </a>
         <button
           class="navbar-toggler"
           data-toggle="collapse"
@@ -45,92 +45,99 @@
               <a href="/index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#aboutus" class="nav-link">About Us</a>
+              <a href="/aboutus.html" class="nav-link">About Us</a>
             </li>
             <li class="nav-item">
               <a href="/ourmembers.html" class="nav-link">Our Members</a>
             </li>
             <li class="nav-item">
-              <a href="/contactus.html" class="nav-link">Contact</a>
+              <a href="#contactus" class="nav-link">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
     </div>
-    
-    <section id="about-us">
+    <section id="contact-us-page-section-one">
+      <div class="container contact-us-container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="py-3">
+              Contact Us
+            </h1>
+            <p>
+              <em>
+                "Every penny raised goes to the school for the rehabilitation of
+                the school facilities. These students are greater tomorrow and
+                they are hoping on us for assistance. As we support this school,
+                we empower generation generations of women families communities
+                and nations that they touch."
+              </em>
+            </p>
+            <h4>
+              We appreciate your interest in our organization. Contact Us using
+              the form below and get involved!
+            </h4>
+            <hr class="py-2" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-us-form">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1 class="text-center py-3">About Our Organization</h1>
-          </div>
-        </div>
-          <div class="row justify-content-center mx-auto">
-            <div class="col-md-12 text-center">
-              <hr>
-              <p class="lead py-2">
-                SCOGAD USA is a nonprofit Tax exempt, and Charity organization that is started by the Alumni of St. Catherine’s high school to abet in any way feasible to overhaul the school financial education and morality. We repudiate to sit by and watch these students continue to suffer without limits. This is our reason to reach out for help
-              </p>
-            </div>
-            <div class="col-md-12 justify-content-center">
-              <img
-                src="/images/14448787_1802267166681766_5080859879930092698_n.jpg"
-                alt=""
-                width="200px"
-                height="200px"
-                class="aboutus-pic"
+            <form
+              id="contactus"
+              action="https://formspree.io/chika.ekene@gmail.com"
+              method="POST"
+            >
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="firstName">First Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="firstName"
+                    placeholder="First"
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="lastName">Last Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    placeholder="Last"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="johndoe@gmail.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  class="form-control"
+                  name="message"
+                  id="message"
+                  rows="5"
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                class="btn contact-submit-button"
+                value="Submit"
               />
-            </div>
-            <hr>
-          </div>
-        <div class="row">
-          <div class="col-md-12">
-            <hr />
-            <h2 class="py-2 text-center">Our Objectives</h2>
-          </div>
-          <div class="row py-3">
-            <div class="col-md-4 text-center">
-              <div>
-                  <i class="fas fa-globe-americas fa-3x text-secondary-color"></i>
-              </div>
-              <div>
-                <p class="lead py-3">
-                  To create a global platform of St. Catherine’s Secondary
-                  School Nkwerre alumni through networking engagement and
-                  information sharing.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div>
-                    <i class="fas fa-school fa-3x text-secondary-color"></i>
-                </div>
-                <div>
-                  <p class="lead py-3">
-                      To Collectively plan and implement programs that shall benefit the alumni Association and St. Catherine ‘s Girls Secondary School.
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-4 text-center">
-                  <div>
-                      <i class="fab fa-slideshare fa-3x text-secondary-color"></i>
-                  </div>
-                  <div>
-                    <p class="lead py-3">
-                        To hold meetings and conferences to exchange ideas on matters of development for St. Catherine’s Girls Secondary Schools.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <hr>
-                <p class="lead text-center">
-                    Our goal is to raise funds and rehabilitate the dilapidated school and uplift the spirits these afflicted indigenous students at the school.
-                </p>
-              </div>
-            </div>
+              <br />
+              <br />
+            </form>
           </div>
         </div>
       </div>
