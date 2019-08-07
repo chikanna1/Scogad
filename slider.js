@@ -13,8 +13,12 @@ var images = [
   "images/Gallery/IMG_3546",
   "images/Gallery/IMG_3547",
   "images/Gallery/IMG_3548",
-  "images/Gallery/IMG_3549"
+  "images/Gallery/IMG_3549",
+  "images/Gallery/IMG_3551",
+  "images/Gallery/IMG_3552",
+  "images/Gallery/IMG_3553"
 ];
+
 var i = images.length;
 
 // function for next slide
